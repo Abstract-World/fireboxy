@@ -1,6 +1,4 @@
 const Discord = require("discord.js")
-const botconfig = require("../botconfig.json")
-const prefix = botconfig.prefix
 
 
 module.exports = bot => {
