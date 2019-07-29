@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('message', msg => {
   if (msg.content === 'ping') {
     let pp = Math.round(client.ping)
-    msg.channel.send(pp + "ms");
+    msg.channel.send(pp + " `ms`");
   }
   
   
