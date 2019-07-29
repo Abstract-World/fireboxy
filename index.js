@@ -8,7 +8,8 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'ping') {
-    msg.reply('pong!');
+    let pp = Math.round(client.ping)
+    msg.channel.send(pp + "ms");
   }
   
   
