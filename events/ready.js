@@ -5,7 +5,7 @@ module.exports = bot => {
     console.log(`${bot.user.username} is online`)
 
     let statuses = [
-        `Moosic`
+        `Moosik`
     ]
 
     setInterval(function() {
