@@ -14,7 +14,7 @@ client.on('message', msg => {
   
    if (msg.content === 'shutdown') {
        msg.channel.send('Shutting Down :wave:')
-        message.react("✅");
+        msg.react("✅");
         process.exit(1)
     }
   
