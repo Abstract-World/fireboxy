@@ -1,0 +1,27 @@
+{
+  "root": true,
+
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+
+  "env": {
+    "node": true
+  },
+
+  "rules": {
+    "space-infix-ops": "error",
+    "space-unary-ops": ["error", {
+      "words": true,
+      "nonwords": false,
+      "overrides": {
+        "!": true,
+        "!!": true
+      }
+    }]
+  }
+}
