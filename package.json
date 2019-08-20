@@ -3,7 +3,7 @@
   "version": "2.21.1",
   "description": "",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "./src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
